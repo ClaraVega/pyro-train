@@ -8,19 +8,19 @@ stages:
     deps:
     - path: ./data/01_raw/wildfire
       hash: md5
-      md5: 54c59b805b5442f2a85633a53500d137.dir
-      size: 5938137421
-      nfiles: 106741
+      md5: fdc64718814bd996f29da2455fa93e83.dir
+      size: 391173239
+      nfiles: 5650
     - path: ./scripts/data/model_input/build.py
       hash: md5
-      md5: a93e0fb5bcc216fb5822dbe7ad2f6ada
-      size: 6753
+      md5: 33925c9d4b98cc93fb039b4e239c5e47
+      size: 6749
     outs:
     - path: ./data/03_model_input/wildfire/
       hash: md5
-      md5: f53d05b24126028410c53c03e962b45b.dir
-      size: 6856397547
-      nfiles: 123188
+      md5: 57e29a815440ed8199274ae33b7e938c.dir
+      size: 485067947
+      nfiles: 7008
   train_yolo_baseline_small:
     cmd:
     - uv run python ./scripts/model/yolo/train.py --data ./data/03_model_input/wildfire/small/datasets/data.yaml
