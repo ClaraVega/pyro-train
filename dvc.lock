@@ -18,8 +18,8 @@ stages:
     outs:
     - path: ./data/03_model_input/wildfire/
       hash: md5
-      md5: 57e29a815440ed8199274ae33b7e938c.dir
-      size: 485067947
+      md5: 557a28c66472722a950adeec17eb539b.dir
+      size: 484648970
       nfiles: 7008
   train_yolo_baseline_small:
     cmd:

@@ -6,7 +6,7 @@ authors = [{ name = "Arthur Caillau", email = "arthur@caillau.me" }]
 requires-python = "~=3.12"
 readme = "README.md"
 dependencies = [
-    "ultralytics==8.3.113",
+    "ultralytics==8.4.14",
     "torch>=2.2.2,<3",
     "torchvision>=0.17.2,<0.18",
     "pandas>=2.2.2,<3",

@@ -1,4 +1,4 @@
 ---
-model_type: yolo12n.pt
+model_type: yolo26m.pt
 epochs: 10
 imgsz: 640
