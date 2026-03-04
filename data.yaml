@@ -1,0 +1,5 @@
+train: data/train_data/images/train
+val: data/train_data/images/val
+
+nc: 1
+names: ["wildfire"]

@@ -3,7 +3,7 @@ model_type:
   type: array
   array_type: str
   values:
-    - yolo12s.pt
+    - yolo26s.pt
 epochs:
   type: space
   space_type: int
