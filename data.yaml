@@ -1,5 +1,5 @@
-train: data/train_data/images/train
-val: data/train_data/images/val
+train: data/01_raw/ wildfire/images/train
+val: data/01_raw/ wildfire/images/val
 
 nc: 1
 names: ["wildfire"]
