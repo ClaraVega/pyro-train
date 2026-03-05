@@ -1,0 +1,6 @@
+train: ./yolo_ready/images/train
+val: ./yolo_ready/images/val
+test: ./yolo_ready/images/test
+nc: 1
+names:
+  - smoke
